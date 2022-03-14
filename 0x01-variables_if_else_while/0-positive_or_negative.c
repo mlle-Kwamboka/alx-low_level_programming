@@ -4,7 +4,7 @@
 
 /**
  * main - checks if the random integer n is positive or negative,
- * return: Always zero when there are no errors
+ * Return: Always 0 when there are no errors
  */
 int main(void)
 {
