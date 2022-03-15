@@ -6,6 +6,10 @@
  */
 
 int main(void)
+	/**
+	 * Main - Can be called without any parameter
+	 * Return: value of data type int
+	 */
 {
 	putchar ('_');
 	putchar ('p');
