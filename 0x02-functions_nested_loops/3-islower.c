@@ -7,5 +7,15 @@
 
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z');
+	int b;
+
+	b = _islower ('A');
+	putchar (b + '0');
+	b = _islower ('n');
+	putchar (b + '1');
+	b  = _islower (20);
+	putchar (b + '0');
+	putchar ('\n');
+	
+	return (0);
 }
