@@ -1,5 +1,5 @@
 /**
- * Function Prototype for file 0-putchar.c
+ * Function protype for 1-alphabet.c
  */
+void print_alphabet(void);
 
-int main(void)
