@@ -7,12 +7,13 @@
 void print_alphabet_x10(void)
 {
 	char y;
+
+	char n;
 	
 	y = 'a';
 
-	while (y <= z)
+	while (y <= 'z')
 	{
-		char n;
 		
 		n = '1';
 		
@@ -21,6 +22,9 @@ void print_alphabet_x10(void)
 			putchar (y);
 			y++;
 		}
-	}n++
+	}
+	n++;
+	
+	putchar ('\n');
 
 }
