@@ -1,12 +1,10 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * print_alphabet_x10 - prints alphabet x10 followed by a new line
  */
-
-void print_alphabet_x10(void)
+int main(void)
 {
-	char y;
+	char *s = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
 	
@@ -14,16 +12,15 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		
-		y = 'a';
-		
-		while (y <= 'z')
+				
+		while (*s != '\0')
 		{
-			putchar (y);
-			y++;
+			_putchar (*s);
+			s++;
 		}
 	}
-	putchar ('\n');
+	_putchar ('\n');
 	i++;
+	return (0);
 
 }

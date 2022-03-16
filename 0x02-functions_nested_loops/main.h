@@ -1,20 +1,8 @@
-/**
- * Function prototype for 0-putchar.c
- */
-int main(void);
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * Function protype for 1-alphabet.c
- */
-void print_alphabet(void);
+int _putchar(char c);
 
-/**
- * Function prototype for task 2-print_alphabet_x10.c
- */
 void print_alphabet_x10(void);
 
-/**
- * Function prototype for 3-islower.c
- */
-int _islower(int c);
-
+#endif
