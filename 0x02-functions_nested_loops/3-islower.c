@@ -6,9 +6,8 @@
  * Return: 1 lowercase, 0 otherwise
  */
 
-int _islower(int i)
+int _islower(int b)
 {
-	int b;
 
 	b = _islower('A');
 	_putchar(b + '0');
