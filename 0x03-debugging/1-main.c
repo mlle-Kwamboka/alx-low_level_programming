@@ -13,11 +13,11 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10) /**
-			 * Output will be an infinite loop of zero because i is not incremented
-			 */
+	while (i < 10)
 	{
-		putchar(i);
+		putchar(i); /**
+			     * Output an infinite loop of 0 because there is no increment.
+			     */
 	
 	}
 	
