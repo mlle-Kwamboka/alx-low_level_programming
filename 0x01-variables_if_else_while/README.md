@@ -6,4 +6,10 @@ C variables, if, else and while loops Exercises
 
 2 - Print alphabet in lowercase from a-z followed by a new line
 
-3 - Prints a
+3 - Prints alphabet in lower case a-z followed by upper case A-Z followed by a new line
+
+4 - Prints numbers 0-9 followed by a new line
+
+5 - Prints single digit numbers base 10 followed by a new line
+
+6- Print alphabet in lowercase in reverse followed by a new line
