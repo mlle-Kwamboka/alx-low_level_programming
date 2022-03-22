@@ -2,13 +2,16 @@
 
 /**
  * swap_int - Swaps values of two integers
- * @*p: integer being swapped
- * @*pp: integer being swapped
+ * @p: integer being swapped
+ * @pp: integer being swapped
  * Return: Nothing
  */
 
 void swap_int(int *p, int *pp)
 {
-	*p = 42;
-	*pp = 98;
+	int c;
+
+	c = *p;
+	*p = *pp;
+	*pp = c;
 }
