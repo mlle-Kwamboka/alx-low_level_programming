@@ -11,14 +11,14 @@ int main(void)
 	char y;
 
 	i = '0';
-	y = 'A';
+	y = 'a';
 
 	while (i <= '9')
 	{
 		putchar(i);
 		i++;
 	}
-	while (y >= 'A' && y <= 'F')
+	while (y >= 'a' && y <= 'f')
 	{
 		putchar(y);
 		y++;
