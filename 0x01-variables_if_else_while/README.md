@@ -13,3 +13,5 @@ C variables, if, else and while loops Exercises
 6 - Prints single digit numbers base 10 followed by a new line
 
 7- Print alphabet in lowercase in reverse followed by a new line
+
+8- Print numbers base 16 followed by a new line
