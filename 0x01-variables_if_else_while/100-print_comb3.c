@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of two digit numbers 
+ * main - prints all possible combinations of two digit numbers
  * separated by a comma
  * followed by a space
  *
@@ -19,12 +19,11 @@ int main(void)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
-			}
-			if (i != 8 && j != 9)
-			{
 				putchar(',');
 				putchar(' ');
 			}
+			if (i == 8 && j == 9)
+				putchar('');
 		}
 	}
 	return (0);
