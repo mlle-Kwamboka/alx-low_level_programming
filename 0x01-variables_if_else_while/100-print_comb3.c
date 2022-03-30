@@ -23,7 +23,7 @@ int main(void)
 				putchar(' ');
 			}
 			if (i == 8 && j == 9)
-				putchar('');
+				putchar('$');
 		}
 	}
 	return (0);
