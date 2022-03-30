@@ -3,7 +3,8 @@
 /**
  * is_prime_number - return 1 if number is prime and 0 otherwise
  * @n: number being tested
- * return: 1 if prime 0 if not
+ *
+ * Return: 1 if prime 0 if not
  */
 int is_prime_number(int n)
 {
