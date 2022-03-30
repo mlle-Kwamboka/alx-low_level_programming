@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of two digit numbers separated by a comma
+ * main - prints all possible combinations of two digit numbers 
+ * separated by a comma
  * followed by a space
  *
  * Return: Nothing
