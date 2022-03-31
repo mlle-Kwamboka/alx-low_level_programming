@@ -17,3 +17,5 @@ C variables, if, else and while loops Exercises
 8- Prints numbers base 16 followed by a new line
 
 9- Prints any possible commbination of single digit numbers
+
+100- prints all possible combinations of two digit numbers
