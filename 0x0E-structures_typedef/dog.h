@@ -1,3 +1,11 @@
+/**
+* struct dog - My structure
+* @name: First member
+* @age: Second member
+* @owner: Third member
+*
+* Description: Defines a new type with given parameters
+*/
 struct dog
 {
 	char *name;
