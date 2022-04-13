@@ -8,7 +8,7 @@
 *
 * Description: Longer description
 */
-typde struct dog dog_t
+typdef struct dog dog_t
 {
 	char *name;
 	float age;
