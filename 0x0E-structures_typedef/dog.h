@@ -4,7 +4,7 @@
 * @age: Second member
 * @owner: Third member
 *
-* Description: Defines a new type with given parameters
+* Description: Longer description
 */
 struct dog
 {
