@@ -1,4 +1,4 @@
-#ifndef DOG_HH
+#ifndef DOG_H
 #define DOG_H
 /**
 * struct dog - My structure
@@ -8,7 +8,7 @@
 *
 * Description: Longer description
 */
-typde struct dog dog_t
+ struct dog
 {
 	char *name;
 	float age;
