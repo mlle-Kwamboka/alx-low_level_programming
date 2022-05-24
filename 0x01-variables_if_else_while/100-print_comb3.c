@@ -23,7 +23,7 @@ int main(void)
 				putchar(' ');
 			}
 			if (i == 8 && j == 9)
-				return
+				putchar('\0');
 		}
 	}
 	return (0);
