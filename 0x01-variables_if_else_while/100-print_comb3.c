@@ -16,16 +16,17 @@ int main(void)
 		for (j = 0; j <= 9; j++)
 		{
 			if (i != j && j != i && i < j)
-				if (i != 8 && j != 9)
-				{
-					putchar(i + '0');
-					putchar(j + '0');
-					putchar(',');
-					putchar(' ');
-				}
+			{
+				putchar(i + '0');
+				putchar(j + '0');
+				putchar(',');
+				putchar(' ');
+			}
 				
 		}
 	}
-	putchar('\n');
+	if (i == 8 && j == 9)
+		putchar('\n');
+	
 	return (0);
 }
