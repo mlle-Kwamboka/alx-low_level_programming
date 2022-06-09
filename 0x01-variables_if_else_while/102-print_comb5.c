@@ -18,18 +18,18 @@ int main(void)
 			{
 				for (l = 0; l <= 9; l++)
 				{
-					if (i = j || i > j)
+					if (i <= 9 && j <= 9)
 					{
-						putchar(i +'0');
-						putchar (j +'0');
-						if (i != 9 || j != 8)
+						putchar(i + '0');
+						putchar (j + '0');
+						if (i != 9 || j != 9)
 						{
 							putchar (' ');
 							if (k <= j)
 							{
 								putchar(k + '0');
 								putchar(l + '0');
-								if (k != 9 || j != 9)
+								if (k != 9 || l != 9)
 								{
 									putchar(',');
 									putchar(' ');
